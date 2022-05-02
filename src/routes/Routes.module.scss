@@ -1,3 +1,5 @@
+@use '/src/styles/constants/colors';
+
 .app {
   text-align: center;
 }
@@ -20,16 +22,12 @@
   justify-content: center;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: colors.$WHITE;
   background-color: #282c34;
-
-  .aaa {
-    background-color: red;
-  }
 }
 
 .appLink {
-  color: #61dafb;
+  color: colors.$BLUE;
 }
 
 @keyframes appLogoSpin {
