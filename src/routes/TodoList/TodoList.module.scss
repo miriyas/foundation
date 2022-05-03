@@ -77,7 +77,10 @@
     }
 
     .title {
+      overflow: hidden;
       color: colors.$TASK_ITEM_TITLE;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
 
