@@ -1,5 +1,6 @@
 {
   "extends": ["airbnb", "airbnb/hooks", "react-app", "prettier"],
+  "plugins": ["@typescript-eslint"],
   "env": {
     "browser": true,
     "jasmine": true,
