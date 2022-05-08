@@ -23,7 +23,7 @@ const INIT_TODO = [
 function TodoList() {
   const [todoList, setTodoList] = useState(INIT_TODO)
 
-  const handleAddClick = (e) => {
+  const handleAddClick = () => {
     // console.log('handleAddClick')
   }
 
